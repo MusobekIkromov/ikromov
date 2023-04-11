@@ -1,0 +1,541 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.main{
+    height: 100vh;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.navbar-title{
+    font-size: 22px;
+}
+.navbar-titles{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-title__text{
+    color: gray;
+    font-weight: 400;
+}
+.navbar-button{
+    display: flex;
+    column-gap: 35px;
+}
+.navbar-button__btn{
+    border: none;
+    background-color: white;
+    font-weight: 700;
+}
+.navbar-button__btn2{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    font-weight: 700;
+}
+.lasesvpn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+
+.img{
+    width: 620px;
+    height: 400px;
+}
+.lasesvpn-title{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.lasesvpn-text{
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.lasesvpn-btn{
+    padding: 17px 56px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.717);
+    color: white;
+    font-weight: 700;
+}
+.lasesvpn-btn:active{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.locatsion{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.locatsion-icons{
+    display: flex;
+
+}
+.locatsion-number{
+    font-weight: 800;
+}
+
+
+
+.bi-person-fill{
+font-size: 29px;
+color: red;
+background-color: rgba(236, 114, 114, 0.696);
+padding: 3px 6px;
+border-radius: 50%;
+}
+.locatsion-icon{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.bi-geo-alt-fill{
+    font-size: 29px;
+    color: red;
+    background-color: rgba(236, 114, 114, 0.55);
+padding: 3px 6px;
+border-radius: 50%;
+}
+.bi-hdd-stack-fill{
+    font-size: 29px;
+    color: red;
+    background-color: rgba(236, 114, 114, 0.605);
+padding: 3px 6px;
+border-radius: 50%;
+}
+.works{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.work-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.work-text{
+    color: gray;
+    margin-bottom: 20px;
+}
+.works-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.bi-check-circle-fill{
+    font-size: 20px;
+    color: rgb(8, 235, 8);
+}
+.plan-titles{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.plan-title{
+    margin-bottom: 20px;
+}
+.plan-text{
+    color: gray;
+}
+.plan-boxs{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plan-box{
+    height: 600px;
+    border: 2px solid rgb(207, 198, 198);
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plan-box4{
+    border: 2px solid rgba(255, 0, 0, 0.705);
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.plan-box2{
+    display: flex;
+}
+.plan-boxs2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.plan-box3{
+    display: flex;
+    justify-content: center;
+}
+.plan-box3__port{
+    font-weight: 700;
+}
+.plan-box3__port2{
+    color: gray;
+}
+.bi-check-lg{
+    color: rgb(0, 255, 0);
+}
+.plan-box3__btn{
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-radius: 50px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 700;
+    background-color: white;
+}
+.plan-box3__btn:active{
+    background-color: red;
+    color: white;   
+}
+.plan-box4__btn{
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(255, 0, 0, 0.76);
+}
+.plan-box4__btn:active{
+    background-color: white;
+    color: red;
+
+
+border: 2px solid red;
+}
+.plan-box3__text{
+    color: gray;
+}
+.globus{
+    margin-top: 150px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.globus-title{
+    margin-bottom: 30px;
+}
+.globus-text{
+    color: gray;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.globus-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-images{
+    width: 200px;
+    height: 200px;
+    color: gray;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trusted{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.trusted-title{
+    margin-bottom: 30px;
+}
+.trusted-text{
+    color: gray;
+}
+
+.peoples{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.peoples2{
+    border: 3px solid red;
+    border-radius: 5px;
+    padding: 20px 27px;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.people-images{
+    display: flex;
+}
+.box-people{
+    border: 3px solid rgb(189, 182, 182);
+    border-radius: 5px;
+    padding: 20px 27px;
+}
+.box-people2{
+    display: flex;
+    align-items: center;
+}
+.bi-star-fill{
+    color: rgb(255, 187, 0);
+}
+.people-texts{
+    margin-left: 10px;
+}
+.people-port{
+    font-weight: 600;
+}
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bals {
+    display: flex;
+    margin-top: 82px;
+}
+
+.red {
+    background-color: #F53838;
+    width: 50px;
+    height: 15px;
+    border-radius: 100px;
+    border: none;
+}
+
+.gray {
+    background: #DDE0E4;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.left-right {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    display: flex;
+    margin-top: 82px;
+}
+
+.left {
+    border: 2px solid #F53838;
+    background-color: transparent;
+    padding: 10px 11px;
+    font-size: 30px;
+    color: #F53838;
+    border-radius: 50%;
+}
+
+.right {
+    border: 2px solid #F53838;
+    background-color: #F53838;
+    padding: 10px 11px;
+    font-size: 30px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+.subscribes{
+    background-color: beige;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subscribe-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.subscribe-text{
+    color: gray;
+}
+.subscribe-btn{
+    padding: 15px 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.739);
+    color: white;
+    font-weight: 700;
+}
+.footers {
+    height: 90vh;
+    margin-top: 120px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+}
+
+.foot {
+    margin-top: 60px;
+    position: absolute;
+    list-style: none;
+    text-decoration: none;
+}
+
+.foot-text {
+    font-family: 'Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    list-style: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icons-f {
+    margin-top: 170px;
+    position: absolute;
+    column-gap: 20px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bi-facebook {
+    background: #FFFFFF;
+    color: #F53838;
+    padding: 10px 11px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(218, 218, 218);
+    list-style: none;
+    text-decoration: none;
+}
+
+.bi-twitter {
+    background: #FFFFFF;
+    color: #F53838;
+    padding: 10px 11px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(218, 218, 218);
+    list-style: none;
+    text-decoration: none;
+}
+
+.bi-instagram {
+    background: #FFFFFF;
+    color: #F53838;
+    padding: 10px 11px;
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(218, 218, 218);
+    list-style: none;
+    text-decoration: none;
+}
+
+.footervpn {
+    margin-top: 270px;
+    position: absolute;
+
+    font-family: 'Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #AFB5C0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 550px;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-link1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-link2 {
+    font-family: 'Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-link2 {
+    margin-left: 125px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-links3 {
+    margin-left: 100px;
+    list-style: none;
+    text-decoration: none;
+}   
+.net5{
+    
+}
